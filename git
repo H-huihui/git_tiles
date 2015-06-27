@@ -1,0 +1,16 @@
+git base 基本操作
+#上传整个工程
+egg:
+$ get clone https://github.com/H-huihui/jsp_tiles.git
+整个工程放入电脑本地jsp_tiles文件夹中
+$ git init
+$ git commit -m '工程文件夹名'
+$ git remote rm origin
+$ git remote add origin https://github.com/H-huihui/jsp_tiles.git
+$ git push origin master
+
+#传入整个文件夹会出现问题
+$ ls "project" name
+$ git add .
+$ git commit -a -m "jsp_tiles"
+$ git push -u origin master
